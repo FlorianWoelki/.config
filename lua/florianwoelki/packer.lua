@@ -4,6 +4,7 @@
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
+local mark = require
 	-- Packer can manage itself
 	use 'wbthomason/packer.nvim'
 
@@ -51,10 +52,13 @@ return require('packer').startup(function(use)
 		}
 	}
 
-    use("nvim-tree/nvim-tree.lua")
-    use("nvim-tree/nvim-web-devicons")
+    --use("nvim-tree/nvim-tree.lua")
+    --use("nvim-tree/nvim-web-devicons")
 
-    use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+    use {'akinsho/toggleterm.nvim', tag = '*', config = function()
         require("toggleterm").setup()
     end}
+
+    use('ThePrimeagen/harpoon');
+    use('folke/zen-mode.nvim');
 end)
