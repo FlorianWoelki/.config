@@ -1,0 +1,4 @@
+## Brew packages
+
+`ripgrep` 
+
