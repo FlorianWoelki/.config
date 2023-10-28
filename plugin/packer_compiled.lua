@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/florianwoelki/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["autoclose.nvim"] = {
+    loaded = true,
+    path = "/Users/florianwoelki/.local/share/nvim/site/pack/packer/start/autoclose.nvim",
+    url = "https://github.com/m4xshen/autoclose.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/florianwoelki/.local/share/nvim/site/pack/packer/start/cmp-buffer",

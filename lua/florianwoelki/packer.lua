@@ -59,6 +59,7 @@ local mark = require
         require("toggleterm").setup()
     end}
 
-    use('ThePrimeagen/harpoon');
-    use('folke/zen-mode.nvim');
+    use('ThePrimeagen/harpoon')
+    use('folke/zen-mode.nvim')
+    use('m4xshen/autoclose.nvim')
 end)
