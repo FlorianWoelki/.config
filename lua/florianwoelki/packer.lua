@@ -21,7 +21,7 @@ local mark = require
 				-- ...
 			})
 
-			vim.cmd('colorscheme github_dark')
+			vim.cmd('colorscheme github_dark_dimmed')
 		end
 	})
 
@@ -62,4 +62,5 @@ local mark = require
     use('ThePrimeagen/harpoon')
     use('folke/zen-mode.nvim')
     use('m4xshen/autoclose.nvim')
+    use('airblade/vim-gitgutter')
 end)
