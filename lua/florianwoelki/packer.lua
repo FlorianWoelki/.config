@@ -63,4 +63,5 @@ local mark = require
     use('folke/zen-mode.nvim')
     use('m4xshen/autoclose.nvim')
     use('airblade/vim-gitgutter')
+    use('RRethy/vim-illuminate')
 end)

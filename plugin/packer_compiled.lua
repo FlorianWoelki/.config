@@ -191,6 +191,11 @@ _G.packer_plugins = {
     path = "/Users/florianwoelki/.local/share/nvim/site/pack/packer/start/vim-gitgutter",
     url = "https://github.com/airblade/vim-gitgutter"
   },
+  ["vim-illuminate"] = {
+    loaded = true,
+    path = "/Users/florianwoelki/.local/share/nvim/site/pack/packer/start/vim-illuminate",
+    url = "https://github.com/RRethy/vim-illuminate"
+  },
   ["zen-mode.nvim"] = {
     loaded = true,
     path = "/Users/florianwoelki/.local/share/nvim/site/pack/packer/start/zen-mode.nvim",
