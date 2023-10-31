@@ -64,5 +64,4 @@ local mark = require
     use('m4xshen/autoclose.nvim')
     use('airblade/vim-gitgutter')
     use('RRethy/vim-illuminate')
-    use('lukas-reineke/virt-column.nvim')
 end)
