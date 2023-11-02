@@ -30,3 +30,6 @@ vim.g.netrw_winsize = 25
 
 vim.opt.colorcolumn = "80"
 
+vim.opt.splitright = true
+vim.opt.splitbelow = true
+
