@@ -65,4 +65,11 @@ local mark = require
     use('airblade/vim-gitgutter')
     use('RRethy/vim-illuminate')
     use('windwp/nvim-ts-autotag')
+    use('WhoIsSethDaniel/mason-tool-installer.nvim')
+    use({
+      "stevearc/conform.nvim",
+      config = function()
+        require("conform").setup()
+      end,
+    })
 end)
