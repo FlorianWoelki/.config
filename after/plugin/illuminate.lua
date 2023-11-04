@@ -14,4 +14,7 @@ require("illuminate").configure({
 	},
 })
 
-vim.cmd("hi IlluminatedWordRead gui=none guibg=#444444")
+local commonAttributes = "gui=none guibg=#444444"
+vim.cmd("hi IlluminatedWordRead " .. commonAttributes)
+vim.cmd("hi IlluminatedWordWrite " .. commonAttributes)
+vim.cmd("hi IlluminatedWordText " .. commonAttributes)
