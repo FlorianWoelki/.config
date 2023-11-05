@@ -12,6 +12,12 @@ vim.keymap.set("n", "N", "Nzzzv")
 
 vim.keymap.set("n", "Q", "<nop>")
 
-vim.keymap.set("n", "<leader>y", "\"+y")
-vim.keymap.set("v", "<leader>y", "\"+y")
+vim.keymap.set("n", "<leader>y", '"+y')
+vim.keymap.set("v", "<leader>y", '"+y')
 
+vim.keymap.set("n", "ss", ":split<Return><C-w>j")
+vim.keymap.set("n", "sv", ":vsplit<Return><C-w>l")
+vim.keymap.set("n", "sh", "<C-w>h")
+vim.keymap.set("n", "sk", "<C-w>k")
+vim.keymap.set("n", "sj", "<C-w>j")
+vim.keymap.set("n", "sl", "<C-w>l")
