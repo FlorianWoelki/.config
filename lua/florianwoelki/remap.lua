@@ -21,3 +21,7 @@ vim.keymap.set("n", "sh", "<C-w>h")
 vim.keymap.set("n", "sk", "<C-w>k")
 vim.keymap.set("n", "sj", "<C-w>j")
 vim.keymap.set("n", "sl", "<C-w>l")
+
+vim.keymap.set("", "<leader>f", function()
+	require("conform").format({ async = true, lsp_fallback = true })
+end)
