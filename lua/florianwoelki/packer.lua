@@ -53,17 +53,6 @@ return require("packer").startup(function(use)
 		},
 	})
 
-	--use("nvim-tree/nvim-tree.lua")
-	--use("nvim-tree/nvim-web-devicons")
-
-	use({
-		"akinsho/toggleterm.nvim",
-		tag = "*",
-		config = function()
-			require("toggleterm").setup()
-		end,
-	})
-
 	use("ThePrimeagen/harpoon")
 	use("folke/zen-mode.nvim")
 	use("m4xshen/autoclose.nvim")
