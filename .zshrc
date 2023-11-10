@@ -109,6 +109,9 @@ source $ZSH/oh-my-zsh.sh
 # [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 alias vim="nvim"
-alias v="fd --type f --hidden --exclude .git | fzf-tmux | xargs nvim"
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+if [ -z "$TMUX" ]
+then
+  tmux attach -t TMUX || tmux new -s TMUX
+fi
+
