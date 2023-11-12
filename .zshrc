@@ -110,8 +110,3 @@ source $ZSH/oh-my-zsh.sh
 
 alias vim="nvim"
 
-if [ -z "$TMUX" ]
-then
-  tmux attach -t TMUX || tmux new -s TMUX
-fi
-
