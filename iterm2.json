@@ -20,7 +20,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.7803921568627451
   },
-  "Use Custom Window Title" : false,
+  "Use Custom Window Title" : true,
   "Right Option Key Sends" : 0,
   "Character Encoding" : 4,
   "Selection Color" : {
