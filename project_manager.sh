@@ -2,6 +2,7 @@
 
 projects=(
   "obsidian-iconize:$HOME/Desktop/obsidian-icon-folder/"
+  "work/web-trading:$HOME/Desktop/web-trading/"
 )
 
 if [ -n "$1" ]; then
