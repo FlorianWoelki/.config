@@ -23,7 +23,11 @@ vim.keymap.set("n", "sj", "<C-w>j")
 vim.keymap.set("n", "sl", "<C-w>l")
 
 vim.keymap.set("n", "gb", "<C-^>")
-vim.keymap.set("n", "gf", ":bnext<CR>")
+
+-- Tab navigation
+vim.keymap.set("n", "te", ":tabedit<Return>")
+vim.keymap.set("n", "<tab>", ":tabnext<Return>")
+vim.keymap.set("n", "<s-tab>", ":tabprev<Return>")
 
 vim.keymap.set("", "<leader>f", function()
 	require("conform").format({ async = true, lsp_fallback = true })
