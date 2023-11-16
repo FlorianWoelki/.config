@@ -23,6 +23,7 @@ vim.keymap.set("n", "sj", "<C-w>j")
 vim.keymap.set("n", "sl", "<C-w>l")
 
 vim.keymap.set("n", "gb", "<C-^>")
+vim.keymap.set("n", "gf", ":bnext<CR>")
 
 vim.keymap.set("", "<leader>f", function()
 	require("conform").format({ async = true, lsp_fallback = true })
