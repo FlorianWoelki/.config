@@ -67,4 +67,10 @@ return require("packer").startup(function(use)
 		end,
 	})
   use("github/copilot.vim")
+  use {
+    "smjonas/inc-rename.nvim",
+    config = function()
+      require("inc_rename").setup()
+    end,
+  }
 end)
