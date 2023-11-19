@@ -6,6 +6,7 @@ require("mason-tool-installer").setup({
 		"vue-language-server",
 		"rust-analyzer",
 		"eslint-lsp",
+		"tailwindcss-language-server",
 	},
 	run_on_start = true,
 })
