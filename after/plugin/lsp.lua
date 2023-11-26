@@ -46,6 +46,9 @@ lsp.on_attach(function(client, bufnr)
 		vim.api.nvim_command("cfirst")
 	end
 
+  vim.keymap.set("n", "<leader>e", function()
+    vim.diagnostic.open_float()
+  end, opts)
 	vim.keymap.set("n", "gd", function()
 		vim.lsp.buf.definition({
 			on_list = on_list,
@@ -62,9 +65,6 @@ lsp.on_attach(function(client, bufnr)
 	end, opts)
 	vim.keymap.set("n", "<leader>vws", function()
 		vim.lsp.buf.workspace_symbol()
-	end, opts)
-	vim.keymap.set("n", "<leader>vd", function()
-		vim.diagnostic.open_float()
 	end, opts)
 	vim.keymap.set("n", "[d", function()
 		vim.diagnostic.goto_next()
