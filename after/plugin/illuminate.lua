@@ -11,6 +11,7 @@ require("illuminate").configure({
 		"dirvish",
 		"fugitive",
 		"netrw",
+    "mru",
 	},
 })
 
