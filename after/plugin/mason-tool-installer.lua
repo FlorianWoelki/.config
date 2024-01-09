@@ -2,6 +2,7 @@ require("mason-tool-installer").setup({
 	ensure_installed = {
 		"stylua",
 		"prettier",
+		"black",
 		"typescript-language-server",
 		"vue-language-server",
 		"rust-analyzer",
