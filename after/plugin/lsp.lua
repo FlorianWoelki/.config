@@ -46,9 +46,9 @@ lsp.on_attach(function(client, bufnr)
 		vim.api.nvim_command("cfirst")
 	end
 
-  vim.keymap.set("n", "<leader>e", function()
-    vim.diagnostic.open_float()
-  end, opts)
+	vim.keymap.set("n", "<leader>e", function()
+		vim.diagnostic.open_float()
+	end, opts)
 	vim.keymap.set("n", "gd", function()
 		vim.lsp.buf.definition({
 			on_list = on_list,
