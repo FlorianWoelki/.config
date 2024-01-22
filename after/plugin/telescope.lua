@@ -52,4 +52,3 @@ require("telescope").setup({
 		path_display = path_display,
 	},
 })
-
