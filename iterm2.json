@@ -440,11 +440,11 @@
   },
   "Transparency" : 0,
   "Background Color" : {
-    "Red Component" : 0.13333333333333333,
+    "Red Component" : 0.12549019607843137,
     "Color Space" : "sRGB",
-    "Blue Component" : 0.1803921568627451,
+    "Blue Component" : 0.16862745098039217,
     "Alpha Component" : 1,
-    "Green Component" : 0.15294117647058825
+    "Green Component" : 0.14117647058823529
   },
   "Screen" : -1,
   "Initial Use Transparency" : false,
