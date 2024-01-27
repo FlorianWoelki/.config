@@ -11,5 +11,11 @@ vim.keymap.set("n", "<leader>zz", function()
     vim.wo.rnu = true
     vim.opt.colorcolumn = "0"
     ColorMe()
+
+    -- Illuminate plugin for highlighting all instances of the word under the cursor.
+    local commonAttributes = "gui=none guibg=#444444"
+    vim.cmd("hi IlluminatedWordRead " .. commonAttributes)
+    vim.cmd("hi IlluminatedWordWrite " .. commonAttributes)
+    vim.cmd("hi IlluminatedWordText " .. commonAttributes)
 end)
 
