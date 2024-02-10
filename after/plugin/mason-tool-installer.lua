@@ -8,6 +8,8 @@ require("mason-tool-installer").setup({
 		"rust-analyzer",
 		"eslint-lsp",
 		"tailwindcss-language-server",
+    "gopls",
+    "goimports",
 	},
 	run_on_start = true,
 })
