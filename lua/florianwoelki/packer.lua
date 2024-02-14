@@ -27,7 +27,6 @@ return require("packer").startup(function(use)
 	})
 
 	use("nvim-treesitter/nvim-treesitter", { run = ":TSUpdate" })
-	use("mbbill/undotree")
 	use("tpope/vim-fugitive")
 
 	use({
@@ -53,7 +52,6 @@ return require("packer").startup(function(use)
 		},
 	})
 
-	use("ThePrimeagen/harpoon")
 	use("folke/zen-mode.nvim")
 	use("m4xshen/autoclose.nvim")
 	use("lewis6991/gitsigns.nvim")
