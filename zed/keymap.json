@@ -1,0 +1,40 @@
+[
+  {
+    "context": "ProjectPanel && not_editing",
+    "bindings": {
+      "s l": ["workspace::ActivatePaneInDirection", "Right"]
+    }
+  },
+  {
+    "context": "Editor && vim_mode == normal && !VimWaiting && !menu",
+    "bindings": {
+      "space e": "editor::Hover",
+      "s v": "pane::SplitRight",
+      "s s": "pane::SplitDown",
+      "s l": ["workspace::ActivatePaneInDirection", "Right"],
+      "s h": ["workspace::ActivatePaneInDirection", "Left"],
+      "s k": ["workspace::ActivatePaneInDirection", "Up"],
+      "s j": ["workspace::ActivatePaneInDirection", "Down"],
+      "space h": "pane::ActivatePrevItem",
+      "space l": "pane::ActivateNextItem",
+      "space c": "pane::CloseActiveItem",
+      "space p": "file_finder::Toggle",
+      "space /": "terminal_panel::ToggleFocus",
+      "ctrl-w j": "workspace::ToggleBottomDock",
+      "space f": "editor::Format"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      "j k": "vim::NormalBefore"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-w k": ["workspace::ActivatePaneInDirection", "Up"],
+      "ctrl-w j": "workspace::ToggleBottomDock"
+    }
+  }
+]
