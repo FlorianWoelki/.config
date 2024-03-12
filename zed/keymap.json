@@ -18,7 +18,8 @@
       "space h": "pane::ActivatePrevItem",
       "space l": "pane::ActivateNextItem",
       "space c": "pane::CloseActiveItem",
-      "space p": "file_finder::Toggle",
+      "space p f": "file_finder::Toggle",
+      "space p s": "pane::DeploySearch",
       "space /": "terminal_panel::ToggleFocus",
       "ctrl-w j": "workspace::ToggleBottomDock",
       "space f": "editor::Format"
