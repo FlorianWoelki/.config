@@ -10,7 +10,7 @@
   "features": {
     "copilot": true
   },
-  "show_copilot_suggestions": true,
+  "show_copilot_suggestions": false,
   "theme": "Github Dark",
   "telemetry": {
     "metrics": false,
@@ -19,7 +19,11 @@
   "vim_mode": true,
   "ui_font_size": 16,
   "buffer_font_size": 16, // for personal use
-  //"buffer_font_size": 24, // for youtube use
+  //"buffer_font_size": 28, // for youtube use
+  //"preferred_line_length": 60, // for youtube use
+  //"soft_wrap": "preferred_line_length", // for youtube use
   "relative_line_numbers": true,
-  "scrollbar": { "show": "never" }
+  "scrollbar": {
+    "show": "never"
+  }
 }

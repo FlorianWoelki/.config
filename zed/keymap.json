@@ -37,5 +37,11 @@
       "ctrl-w k": ["workspace::ActivatePaneInDirection", "Up"],
       "ctrl-w j": "workspace::ToggleBottomDock"
     }
+  },
+  {
+    "context": "Editor && VimControl && !VimWaiting && !menu",
+    "bindings": {
+      "g d": "editor::OpenExcerpts"
+    }
   }
 ]
