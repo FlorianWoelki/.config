@@ -10,7 +10,7 @@
   "features": {
     "copilot": true
   },
-  "show_copilot_suggestions": false,
+  "show_copilot_suggestions": true,
   "theme": "Github Dark",
   "telemetry": {
     "metrics": false,
@@ -25,5 +25,8 @@
   "relative_line_numbers": true,
   "scrollbar": {
     "show": "never"
+  },
+  "vim": {
+    "use_system_clipboard": "never"
   }
 }
