@@ -22,7 +22,8 @@
       "space p s": "pane::DeploySearch",
       "space /": "terminal_panel::ToggleFocus",
       "ctrl-w j": "workspace::ToggleBottomDock",
-      "space f": "editor::Format"
+      "space f": "editor::Format",
+      "space m": "tab_switcher::Toggle"
     }
   },
   {
