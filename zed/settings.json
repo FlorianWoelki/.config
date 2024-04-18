@@ -10,6 +10,12 @@
   "features": {
     "copilot": true
   },
+  "inlay_hints": {
+    "enabled": true,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true
+  },
   "show_copilot_suggestions": true,
   "theme": "Github Dark",
   "telemetry": {
@@ -20,7 +26,7 @@
   "ui_font_size": 16,
   "buffer_font_size": 16, // for personal use
   //"buffer_font_size": 28, // for youtube use
-  //"preferred_line_length": 60, // for youtube use
+  //"preferred_line_length": 48, // for youtube use
   //"soft_wrap": "preferred_line_length", // for youtube use
   "relative_line_numbers": true,
   "scrollbar": {
