@@ -26,8 +26,9 @@
   "ui_font_size": 16,
   "buffer_font_size": 16, // for personal use
   //"buffer_font_size": 28, // for youtube use
-  //"preferred_line_length": 48, // for youtube use
+  //"preferred_line_length": 58, // for youtube use
   //"soft_wrap": "preferred_line_length", // for youtube use
+  //"show_wrap_guides": false, // for youtube use
   "relative_line_numbers": true,
   "scrollbar": {
     "show": "never"
