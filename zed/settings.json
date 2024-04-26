@@ -46,4 +46,10 @@
   //"preferred_line_length": 58, // for youtube use
   //"soft_wrap": "preferred_line_length", // for youtube use
   //"show_wrap_guides": false, // for youtube use
+  //"git": { // for youtube use
+  //"git_gutter": "tracked_files",
+  //"inline_blame": {
+  //"enabled": false
+  //}
+  //}
 }
