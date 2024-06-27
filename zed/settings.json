@@ -7,16 +7,18 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "ui_font_family": "Monaspace Neon",
+  "buffer_font_family": "Monaspace Neon",
   "features": {
-    "copilot": true
+    "copilot": false
   },
   "inlay_hints": {
-    "enabled": true,
+    "enabled": false,
     "show_type_hints": true,
     "show_parameter_hints": true,
     "show_other_hints": true
   },
-  "show_copilot_suggestions": true,
+  "show_inline_completions": false,
   "theme": "Github Dark",
   "telemetry": {
     "metrics": false,
@@ -42,14 +44,15 @@
   "vim": {
     "use_system_clipboard": "never"
   }
-  //"buffer_font_size": 28 // for youtube use
-  //"preferred_line_length": 58, // for youtube use
-  //"soft_wrap": "preferred_line_length", // for youtube use
-  //"show_wrap_guides": false, // for youtube use
-  //"git": { // for youtube use
-  //"git_gutter": "tracked_files",
-  //"inline_blame": {
-  //"enabled": false
-  //}
-  //}
+  // "buffer_font_size": 28, // for youtube use
+  // "preferred_line_length": 55, // for youtube use
+  // "soft_wrap": "preferred_line_length", // for youtube use
+  // "show_wrap_guides": false, // for youtube use
+  // "git": {
+  //   // for youtube use
+  //   "git_gutter": "tracked_files",
+  //   "inline_blame": {
+  //     "enabled": false
+  //   }
+  // }
 }
