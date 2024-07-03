@@ -6,6 +6,12 @@
     }
   },
   {
+    "context": "Editor && VimControl && !VimWaiting && !menu",
+    "bindings": {
+      "g l": "vim:SelectNext"
+    }
+  },
+  {
     "context": "Editor && vim_mode == normal && !VimWaiting && !menu",
     "bindings": {
       "space e": "editor::Hover",
