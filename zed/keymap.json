@@ -8,7 +8,11 @@
   {
     "context": "Editor && VimControl && !VimWaiting && !menu",
     "bindings": {
-      "g l": "vim:SelectNext"
+      "g l": "vim:SelectNext",
+      "g L": "vim::SelectPrevious",
+      "g a": "editor::SelectAllMatches",
+      "g shift-a": "editor::FindAllReferences",
+      "g f": "project_symbols::Toggle"
     }
   },
   {
