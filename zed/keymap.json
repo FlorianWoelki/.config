@@ -6,9 +6,15 @@
     }
   },
   {
+    "context": "VimControl && !menu",
+    "bindings": {
+      "g s": "outline::Toggle"
+    }
+  },
+  {
     "context": "Editor && VimControl && !VimWaiting && !menu",
     "bindings": {
-      "g l": "vim:SelectNext",
+      "g l": "vim::SelectNext",
       "g L": "vim::SelectPrevious",
       "g a": "editor::SelectAllMatches",
       "g shift-a": "editor::FindAllReferences",
