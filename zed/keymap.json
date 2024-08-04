@@ -1,6 +1,6 @@
 [
   {
-    "context": "ProjectPanel && not_editing",
+    "context": "ProjectPanel",
     "bindings": {
       "s l": ["workspace::ActivatePaneInDirection", "Right"]
     }
@@ -20,6 +20,16 @@
       "g a": "editor::SelectAllMatches",
       "g shift-a": "editor::FindAllReferences",
       "g f": "project_symbols::Toggle"
+    }
+  },
+  {
+    "context": "Editor && (vim_mode == normal || vim_mode == visual) && !VimWaiting && !menu",
+    "bindings": {
+      // Toggle Zen mode, not fully working yet
+      "space z z": "workspace::ToggleCenteredLayout",
+
+      // Open markdown preview
+      "space m p": "markdown::OpenPreview"
     }
   },
   {

@@ -26,8 +26,16 @@
   },
   "vim_mode": true,
   "ui_font_size": 16,
-  "buffer_font_size": 16,
+  "buffer_font_size": 18,
   "relative_line_numbers": true,
+  // NOTE: Zen mode, refer https://github.com/zed-industries/zed/issues/4382 when it's resolved
+  "centered_layout": {
+    "left_padding": 0.2,
+    "right_padding": 0.2
+  },
+  "tab_bar": {
+    "show": true
+  },
   "scrollbar": {
     "show": "never"
   },
