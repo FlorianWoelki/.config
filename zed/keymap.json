@@ -19,7 +19,8 @@
       "g L": "vim::SelectPrevious",
       "g a": "editor::SelectAllMatches",
       "g shift-a": "editor::FindAllReferences",
-      "g f": "project_symbols::Toggle"
+      "g f": "project_symbols::Toggle",
+      "space p e": "diagnostics::Deploy" // Zed specific
     }
   },
   {
@@ -71,5 +72,12 @@
     "bindings": {
       "g d": "editor::OpenExcerpts"
     }
+  },
+  {
+    "context": "vim_operator == d",
+    "bindings": {
+      "o": "editor::ToggleHunkDiff"
+    }
   }
 ]
+

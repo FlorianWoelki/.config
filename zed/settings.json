@@ -64,7 +64,8 @@
   },
   "vim": {
     "use_system_clipboard": "never"
-  }
+  },
+  // "ui_font_size": 28,
   // "buffer_font_size": 28, // for youtube use
   // "preferred_line_length": 55, // for youtube use
   // "soft_wrap": "preferred_line_length", // for youtube use
@@ -78,3 +79,4 @@
   // },
   // "format_on_save": "off"
 }
+

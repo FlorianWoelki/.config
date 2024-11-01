@@ -117,6 +117,5 @@ esac
 # pnpm end
 
 alias vim="nvim"
-alias pm="~/.config/nvim/project_manager.sh"
-
+PATH=$(go env GOPATH)/bin:$PATH
 
