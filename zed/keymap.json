@@ -64,7 +64,8 @@
     "context": "Terminal",
     "bindings": {
       "ctrl-w k": ["workspace::ActivatePaneInDirection", "Up"],
-      "ctrl-w j": "workspace::ToggleBottomDock"
+      "ctrl-w j": "workspace::ToggleBottomDock",
+      "cmd-t": "workspace::NewTerminal"
     }
   },
   {
