@@ -9,7 +9,8 @@
     "context": "VimControl && !menu",
     "bindings": {
       "g s": "outline::Toggle",
-      "g i": "editor::ToggleCodeActions"
+      "g i": "editor::ToggleCodeActions",
+      "g d": "editor::OpenExcerpts"
     }
   },
   {
@@ -91,5 +92,4 @@
       "j k": "vim::NormalBefore"
     }
   }
-
-
+]
