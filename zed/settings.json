@@ -7,13 +7,6 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "assistant": {
-    "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-3-5-sonnet-20240620"
-    },
-    "version": "2"
-  },
   "toolbar": {
     "breadcrumbs": true,
     "quick_actions": false,
@@ -41,19 +34,19 @@
   "buffer_font_size": 18,
   "cursor_blink": false,
   "relative_line_numbers": true,
-  // NOTE: Zen mode, refer https://github.com/zed-industries/zed/issues/4382 when it's resolved
-  "centered_layout": {
-    "left_padding": 0.2,
-    "right_padding": 0.2
-  },
   "tab_bar": {
     "show": true
   },
   "scrollbar": {
     "show": "never"
   },
-  "preview_tabs": {
+  // Rainbow indentation
+  "indent_guides": {
     "enabled": true,
+    "coloring": "indent_aware"
+  },
+  "preview_tabs": {
+    "enabled": false,
     "enable_preview_from_file_finder": false
   },
   "git": {
@@ -65,9 +58,16 @@
   "vim": {
     "use_system_clipboard": "never"
   },
-  // "ui_font_size": 28,
-  // "buffer_font_size": 28, // for youtube use
-  // "preferred_line_length": 55, // for youtube use
+  "languages": {
+    "LaTeX": {
+      "soft_wrap": "preferred_line_length"
+    }
+  },
+  "wrap_guides": [90],
+  "show_wrap_guides": true
+  // "ui_font_size": 26,
+  // "buffer_font_size": 26, // for youtube use
+  // "preferred_line_length": 75, // for youtube use
   // "soft_wrap": "preferred_line_length", // for youtube use
   // "show_wrap_guides": false, // for youtube use
   // "git": {
@@ -76,7 +76,7 @@
   //   "inline_blame": {
   //     "enabled": false
   //   }
-  // },
+  // }
   // "format_on_save": "off"
-}
+
 

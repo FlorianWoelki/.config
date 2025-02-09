@@ -26,17 +26,25 @@
   {
     "context": "Editor && (vim_mode == normal || vim_mode == visual) && !VimWaiting && !menu",
     "bindings": {
-      // Toggle Zen mode, not fully working yet
-      "space z z": "workspace::ToggleCenteredLayout",
+      // Key-bindings for normal & visual mode
 
       // Open markdown preview
-      "space m p": "markdown::OpenPreview"
+      "space m p": "markdown::OpenPreview",
+      "space m P": "markdown::OpenPreviewToTheSide",
+      // Git
+      "space g h d": "editor::ToggleSelectedDiffHunks",
+      "space g h r": "editor::RevertSelectedHunks",
+      // Open recent project
+      "space f p": "branches::OpenRecent"
     }
   },
   {
     "context": "Editor && vim_mode == normal && !VimWaiting && !menu",
     "bindings": {
+      // Key-bindings to work only in normal mode
       "space e": "editor::Hover",
+
+      // Buffers
       "s v": "pane::SplitRight",
       "s s": "pane::SplitDown",
       "s l": ["workspace::ActivatePaneInDirection", "Right"],
@@ -51,7 +59,30 @@
       "space /": "terminal_panel::ToggleFocus",
       "ctrl-w j": "workspace::ToggleBottomDock",
       "space f": "editor::Format",
-      "space m": "tab_switcher::Toggle"
+      "space m": "tab_switcher::Toggle",
+
+      // Error navigation
+      "] e": "editor::GoToDiagnostic",
+      "[ e": "editor::GoToPrevDiagnostic",
+
+      // Git
+      "] h": "editor::GoToHunk",
+      "[ h": "editor::GoToPrevHunk"
+    }
+  },
+  {
+    "context": "EmptyPane || SharedScreen",
+    "bindings": {
+      // Key-bindings for empty pane
+      "space space": "file_finder::Toggle",
+      "space f p": "projects::OpenRecent"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == visual && !VimWaiting && !menu",
+    "bindings": {
+      // visual, visual line & visual block modes
+      "g c": "editor::ToggleComments"
     }
   },
   {
@@ -59,26 +90,6 @@
     "bindings": {
       "j k": "vim::NormalBefore"
     }
-  },
-  {
-    "context": "Terminal",
-    "bindings": {
-      "ctrl-w k": ["workspace::ActivatePaneInDirection", "Up"],
-      "ctrl-w j": "workspace::ToggleBottomDock",
-      "cmd-t": "workspace::NewTerminal"
-    }
-  },
-  {
-    "context": "Editor && VimControl && !VimWaiting && !menu",
-    "bindings": {
-      "g d": "editor::OpenExcerpts"
-    }
-  },
-  {
-    "context": "vim_operator == d",
-    "bindings": {
-      "o": "editor::ToggleHunkDiff"
-    }
   }
-]
+
 
