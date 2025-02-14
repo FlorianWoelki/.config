@@ -15,6 +15,7 @@
   "ui_font_family": "Monaspace Neon",
   "buffer_font_family": "Monaspace Neon",
   "features": {
+    "edit_prediction_provider": "zed",
     "copilot": false
   },
   "inlay_hints": {
@@ -23,7 +24,7 @@
     "show_parameter_hints": true,
     "show_other_hints": true
   },
-  "show_inline_completions": false,
+  "show_edit_predictions": true,
   "theme": "Github Dark",
   "telemetry": {
     "metrics": false,
@@ -78,5 +79,5 @@
   //   }
   // }
   // "format_on_save": "off"
-
+}
 

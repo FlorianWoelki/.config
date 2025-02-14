@@ -2,7 +2,7 @@
   {
     "context": "ProjectPanel",
     "bindings": {
-      "s l": ["workspace::ActivatePaneInDirection", "Right"]
+      "s l": "workspace::ActivatePaneRight"
     }
   },
   {
@@ -34,9 +34,7 @@
       "space m P": "markdown::OpenPreviewToTheSide",
       // Git
       "space g h d": "editor::ToggleSelectedDiffHunks",
-      "space g h r": "editor::RevertSelectedHunks",
-      // Open recent project
-      "space f p": "branches::OpenRecent"
+      "space g h r": "editor::RevertSelectedHunks"
     }
   },
   {
@@ -48,10 +46,10 @@
       // Buffers
       "s v": "pane::SplitRight",
       "s s": "pane::SplitDown",
-      "s l": ["workspace::ActivatePaneInDirection", "Right"],
-      "s h": ["workspace::ActivatePaneInDirection", "Left"],
-      "s k": ["workspace::ActivatePaneInDirection", "Up"],
-      "s j": ["workspace::ActivatePaneInDirection", "Down"],
+      "s l": "workspace::ActivatePaneRight",
+      "s h": "workspace::ActivatePaneLeft",
+      "s k": "workspace::ActivatePaneUp",
+      "s j": "workspace::ActivatePaneDown",
       "space h": "pane::ActivatePrevItem",
       "space l": "pane::ActivateNextItem",
       "space c": "pane::CloseActiveItem",
