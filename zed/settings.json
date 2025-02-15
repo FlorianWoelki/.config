@@ -66,13 +66,15 @@
   },
   "wrap_guides": [90],
   "show_wrap_guides": true
+  // YouTube Use:
+  // "show_wrap_guides": false
+  // "show_edit_predictions": false,
   // "ui_font_size": 26,
-  // "buffer_font_size": 26, // for youtube use
-  // "preferred_line_length": 75, // for youtube use
-  // "soft_wrap": "preferred_line_length", // for youtube use
-  // "show_wrap_guides": false, // for youtube use
+  // "buffer_font_size": 26,
+  // "preferred_line_length": 75,
+  // "soft_wrap": "preferred_line_length",
+  // "show_wrap_guides": false,
   // "git": {
-  //   // for youtube use
   //   "git_gutter": "tracked_files",
   //   "inline_blame": {
   //     "enabled": false
@@ -80,4 +82,3 @@
   // }
   // "format_on_save": "off"
 }
-
