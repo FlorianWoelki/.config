@@ -65,12 +65,12 @@
     }
   },
   "wrap_guides": [90],
-  "show_wrap_guides": true
+  "show_wrap_guides": true,
   // YouTube Use:
-  // "show_wrap_guides": false
+  // "show_wrap_guides": false,
   // "show_edit_predictions": false,
-  // "ui_font_size": 26,
-  // "buffer_font_size": 26,
+  // "ui_font_size": 28,
+  // "buffer_font_size": 28,
   // "preferred_line_length": 75,
   // "soft_wrap": "preferred_line_length",
   // "show_wrap_guides": false,
@@ -79,6 +79,6 @@
   //   "inline_blame": {
   //     "enabled": false
   //   }
-  // }
+  // },
   // "format_on_save": "off"
 }
