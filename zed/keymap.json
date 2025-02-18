@@ -2,7 +2,7 @@
   {
     "context": "ProjectPanel",
     "bindings": {
-      "s l": "workspace::ActivatePaneRight"
+      "s h": "workspace::ActivatePaneLeft"
     }
   },
   {
