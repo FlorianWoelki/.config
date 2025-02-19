@@ -72,8 +72,8 @@
   // YouTube Use:
   // "show_wrap_guides": false,
   // "show_edit_predictions": false,
-  // "ui_font_size": 28,
-  // "buffer_font_size": 28,
+  // "ui_font_size": 26,
+  // "buffer_font_size": 26,
   // "preferred_line_length": 75,
   // "soft_wrap": "preferred_line_length",
   // "show_wrap_guides": false,

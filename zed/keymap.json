@@ -1,5 +1,21 @@
 [
   {
+    "context": "Workspace",
+    "use_key_equivalents": true,
+    "bindings": {
+      "cmd-l": "workspace::ToggleRightDock",
+      "cmd-r": "workspace::ToggleLeftDock"
+    }
+  },
+  {
+    "context": "Editor",
+    "use_key_equivalents": true,
+    "bindings": {
+      // Not entirely sure, why I need this here as well, but now `cmd-l` works.
+      "cmd-l": "workspace::ToggleRightDock"
+    }
+  },
+  {
     "context": "ProjectPanel",
     "bindings": {
       "s h": "workspace::ActivatePaneLeft"
