@@ -50,7 +50,7 @@
       "space m P": "markdown::OpenPreviewToTheSide",
       // Git
       "space g h d": "editor::ToggleSelectedDiffHunks",
-      "space g h r": "editor::RevertSelectedHunks"
+      "space g h r": "git::Restore"
     }
   },
   {
@@ -66,7 +66,7 @@
       "s h": "workspace::ActivatePaneLeft",
       "s k": "workspace::ActivatePaneUp",
       "s j": "workspace::ActivatePaneDown",
-      "space h": "pane::ActivatePrevItem",
+      "space h": "pane::ActivatePreviousItem",
       "space l": "pane::ActivateNextItem",
       "space c": "pane::CloseActiveItem",
       "space p f": "file_finder::Toggle",
@@ -78,11 +78,11 @@
 
       // Error navigation
       "] e": "editor::GoToDiagnostic",
-      "[ e": "editor::GoToPrevDiagnostic",
+      "[ e": "editor::GoToPreviousDiagnostic",
 
       // Git
       "] h": "editor::GoToHunk",
-      "[ h": "editor::GoToPrevHunk"
+      "[ h": "editor::GoToPreviousHunk"
     }
   },
   {
