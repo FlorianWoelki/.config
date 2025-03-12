@@ -1,5 +1,15 @@
 [
   {
+    "context": "vim_mode == insert",
+    "bindings": {
+      "ctrl-x ctrl-o": "editor::ShowCompletions",
+      "ctrl-x ctrl-a": "assistant::InlineAssist", // zed specific
+      // For showing edit prediction manually.
+      "ctrl-x ctrl-c": "editor::ShowEditPrediction", // zed specific
+      "ctrl-x ctrl-l": "editor::ToggleCodeActions" // zed specific
+    }
+  },
+  {
     "context": "Workspace",
     "use_key_equivalents": true,
     "bindings": {

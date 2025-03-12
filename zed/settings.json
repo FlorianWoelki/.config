@@ -21,13 +21,14 @@
     "edit_prediction_provider": "zed",
     "copilot": false
   },
+  // Will be triggered manually with `ctrl-x ctrl-c`.
+  "show_edit_predictions": false,
   "inlay_hints": {
     "enabled": false,
     "show_type_hints": true,
     "show_parameter_hints": true,
     "show_other_hints": true
   },
-  "show_edit_predictions": true,
   "theme": "Github Dark",
   "telemetry": {
     "metrics": false,
@@ -68,7 +69,7 @@
     }
   },
   "wrap_guides": [90],
-  "show_wrap_guides": true,
+  "show_wrap_guides": true
   // YouTube Use:
   // "show_wrap_guides": false,
   // "show_edit_predictions": false,
