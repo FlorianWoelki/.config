@@ -119,3 +119,5 @@ esac
 alias vim="nvim"
 PATH=$(go env GOPATH)/bin:$PATH
 
+export PATH=$(go env GOPATH)/bin:$PATH
+
