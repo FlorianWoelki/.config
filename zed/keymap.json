@@ -10,14 +10,6 @@
     }
   },
   {
-    "context": "Workspace",
-    "use_key_equivalents": true,
-    "bindings": {
-      "cmd-l": "workspace::ToggleRightDock",
-      "cmd-r": "workspace::ToggleLeftDock"
-    }
-  },
-  {
     "context": "Editor",
     "use_key_equivalents": true,
     "bindings": {
@@ -36,7 +28,9 @@
     "bindings": {
       "g s": "outline::Toggle",
       "g i": "editor::ToggleCodeActions",
-      "g d": "editor::OpenExcerpts"
+      "g d": "editor::OpenExcerpts",
+      "g .": "editor::ToggleCodeActions",
+      "g c": ["editor::ToggleComments", { "advance_downwards": false }]
     }
   },
   {
@@ -82,9 +76,10 @@
       "space p f": "file_finder::Toggle",
       "space p s": "pane::DeploySearch",
       "space /": "terminal_panel::ToggleFocus",
-      "ctrl-w j": "workspace::ToggleBottomDock",
       "space f": "editor::Format",
       "space m": "tab_switcher::Toggle",
+      "ctrl-w l": "workspace::ToggleRightDock",
+      "ctrl-w h": "workspace::ToggleLeftDock",
 
       // Error navigation
       "] e": "editor::GoToDiagnostic",
@@ -122,5 +117,5 @@
       // YouTube Usage
       // "j k": ["workspace::SendKeystrokes", "escape z z"]
     }
- }
+  }
 ]
