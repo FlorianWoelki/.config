@@ -7,6 +7,16 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  // Disabling linked edits because of: https://github.com/zed-industries/zed/issues/25586
+  "linked_edits": false,
+
+  "assistant": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-7-sonnet-latest"
+    },
+    "version": "2"
+  },
   "project_panel": {
     "dock": "right"
   },
