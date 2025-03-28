@@ -7,9 +7,6 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  // Disabling linked edits because of: https://github.com/zed-industries/zed/issues/25586
-  "linked_edits": false,
-
   "assistant": {
     "default_model": {
       "provider": "zed.dev",
@@ -31,6 +28,9 @@
     "edit_prediction_provider": "zed",
     "copilot": false
   },
+  // Disabling linked edits because of: https://github.com/zed-industries/zed/issues/25586
+  "linked_edits": false,
+  "hide_mouse_while_typing": true,
   // Will be triggered manually with `ctrl-x ctrl-c`.
   "show_edit_predictions": false,
   "inlay_hints": {
