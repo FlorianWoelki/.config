@@ -34,10 +34,7 @@
   // Will be triggered manually with `ctrl-x ctrl-c`.
   "show_edit_predictions": false,
   "inlay_hints": {
-    "enabled": false,
-    "show_type_hints": true,
-    "show_parameter_hints": true,
-    "show_other_hints": true
+    "enabled": false
   },
   "theme": "Github Dark",
   "telemetry": {
@@ -61,8 +58,7 @@
     "coloring": "indent_aware"
   },
   "preview_tabs": {
-    "enabled": false,
-    "enable_preview_from_file_finder": false
+    "enabled": false
   },
   "git": {
     "git_gutter": "tracked_files",
@@ -80,6 +76,24 @@
   },
   "wrap_guides": [90],
   "show_wrap_guides": true
+  // "experimental.theme_overrides": {
+  //   // Colors are taken from GitHub theme: https://github.com/PyaeSoneAungRgn/github-zed-theme/blob/main/themes/github_theme.json
+  //   "background.appearance": "blurred",
+  //   "background": "#0d1117b0",
+  //   "editor.background": "#0d111730",
+  //   "editor.gutter.background": "#0d111730",
+  //   "tab_bar.background": "#01040940",
+  //   "terminal.background": "#01040930",
+  //   "toolbar.background": "#0d111730",
+  //   "tab.active_background": "#0d111720",
+  //   "tab.inactive_background": "#01040900",
+  //   "status_bar.background": "#010409f0",
+  //   "title_bar.background": "#010409f0",
+  //   "panel.background": "#01040930",
+  //   "border.variant": "#3d444db3",
+  //   "scrollbar.track.border": "#00000000",
+  //   "editor.active_line.background": "#151b230f"
+  // }
   // YouTube Use:
   // "show_wrap_guides": false,
   // "show_edit_predictions": false,
@@ -89,7 +103,7 @@
   // "soft_wrap": "preferred_line_length",
   // "show_wrap_guides": false,
   // "git": {
-  //   "git_gutter": "tracked_files",
+  //   "git_gutter": "hide",
   //   "inline_blame": {
   //     "enabled": false
   //   }
