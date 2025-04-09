@@ -30,7 +30,7 @@
   },
   // Disabling linked edits because of: https://github.com/zed-industries/zed/issues/25586
   "linked_edits": false,
-  "hide_mouse_while_typing": true,
+  "hide_mouse": "on_typing_and_movement",
   // Will be triggered manually with `ctrl-x ctrl-c`.
   "show_edit_predictions": false,
   "inlay_hints": {
