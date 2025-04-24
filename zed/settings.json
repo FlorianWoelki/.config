@@ -28,8 +28,6 @@
     "edit_prediction_provider": "zed",
     "copilot": false
   },
-  // Disabling linked edits because of: https://github.com/zed-industries/zed/issues/25586
-  "linked_edits": false,
   "hide_mouse": "on_typing_and_movement",
   // Will be triggered manually with `ctrl-x ctrl-c`.
   "show_edit_predictions": false,
@@ -97,8 +95,8 @@
   // YouTube Use:
   // "show_wrap_guides": false,
   // "show_edit_predictions": false,
-  // "ui_font_size": 26,
-  // "buffer_font_size": 26,
+  // "ui_font_size": 24,
+  // "buffer_font_size": 24,
   // "preferred_line_length": 75,
   // "soft_wrap": "preferred_line_length",
   // "show_wrap_guides": false,
