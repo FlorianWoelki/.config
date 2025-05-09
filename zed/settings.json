@@ -7,7 +7,7 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "assistant": {
+  "agent": {
     "default_model": {
       "provider": "zed.dev",
       "model": "claude-3-7-sonnet-latest"
@@ -105,6 +105,6 @@
   //   "inline_blame": {
   //     "enabled": false
   //   }
-  // },
+  // }
   // "format_on_save": "off"
 }
