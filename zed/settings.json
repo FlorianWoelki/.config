@@ -9,10 +9,16 @@
 {
   "agent": {
     "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-3-7-sonnet-latest"
+      "provider": "copilot_chat",
+      "model": "claude-3.7-sonnet-thought"
     },
     "version": "2"
+  },
+  "minimap": {
+    "show": "always"
+  },
+  "search": {
+    "button": false
   },
   "project_panel": {
     "dock": "right"
@@ -105,6 +111,6 @@
   //   "inline_blame": {
   //     "enabled": false
   //   }
-  // }
+  // },
   // "format_on_save": "off"
 }
