@@ -80,7 +80,7 @@
 
       // YouTube Usage
       // "k": ["workspace::SendKeystrokes", "up z z"],
-      // "j": ["workspace::SendKeystrokes", "down z z"],
+      // "j": ["workspace::SendKeystrokes", "down z z"]
     }
   },
   {
@@ -88,7 +88,8 @@
     "bindings": {
       // Key-bindings for empty pane
       "space p f": "file_finder::Toggle",
-      "space f p": "projects::OpenRecent"
+      "space f p": "projects::OpenRecent",
+      "ctrl-w l": "workspace::ToggleRightDock"
     }
   },
   {
