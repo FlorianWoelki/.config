@@ -14,6 +14,7 @@
     },
     "version": "2"
   },
+  "inline_code_actions": false,
   "minimap": {
     "show": "always"
   },
