@@ -112,6 +112,5 @@
   //   "inline_blame": {
   //     "enabled": false
   //   }
-  // },
-  // "format_on_save": "off"
+  // }
 }
