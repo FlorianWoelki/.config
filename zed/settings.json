@@ -16,7 +16,7 @@
   },
   "inline_code_actions": false,
   "minimap": {
-    "show": "always"
+    "show": "never"
   },
   "search": {
     "button": false
