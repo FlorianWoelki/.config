@@ -69,6 +69,7 @@
       "space m": "tab_switcher::Toggle",
       "ctrl-w l": "workspace::ToggleRightDock",
       "ctrl-w h": "workspace::ToggleLeftDock",
+      "ctrl-w j": "workspace::ToggleBottomDock",
 
       // Error navigation
       "] e": "editor::GoToDiagnostic",
@@ -81,6 +82,14 @@
       // YouTube Usage
       // "k": ["workspace::SendKeystrokes", "up z z"],
       // "j": ["workspace::SendKeystrokes", "down z z"]
+    }
+  },
+  {
+    "context": "Terminal",
+    "use_key_equivalents": true,
+    "bindings": {
+      // Key-bindings for being in terminal
+      "ctrl-w k": "terminal_panel::ToggleFocus"
     }
   },
   {
