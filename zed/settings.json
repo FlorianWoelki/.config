@@ -19,7 +19,8 @@
     "show": "never"
   },
   "search": {
-    "button": false
+    "button": false,
+    "case_sensitive": true
   },
   "project_panel": {
     "dock": "right"
