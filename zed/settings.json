@@ -11,8 +11,7 @@
     "default_model": {
       "provider": "copilot_chat",
       "model": "claude-3.7-sonnet-thought"
-    },
-    "version": "2"
+    }
   },
   "lsp_document_colors": "inlay",
   "inline_code_actions": false,
@@ -34,8 +33,7 @@
   "ui_font_family": "Monaspace Neon",
   "buffer_font_family": "Monaspace Neon",
   "features": {
-    "edit_prediction_provider": "zed",
-    "copilot": false
+    "edit_prediction_provider": "zed"
   },
   "hide_mouse": "on_typing_and_movement",
   // Will be triggered manually with `ctrl-x ctrl-c`.
