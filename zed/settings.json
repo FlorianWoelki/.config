@@ -23,6 +23,7 @@
     "case_sensitive": true
   },
   "project_panel": {
+    "sticky_scroll": true,
     "dock": "right"
   },
   "toolbar": {
