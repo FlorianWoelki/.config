@@ -15,6 +15,26 @@
     }
   },
   {
+    "context": "Workspace",
+    "use_key_equivalents": true,
+    "bindings": {
+      "ctrl-w i": "terminal_panel::ToggleFocus",
+      "ctrl-w p": "agent::ToggleFocus",
+      "ctrl-w o": "project_panel::ToggleFocus"
+    }
+  },
+  {
+    // I had to add this here because it seems like setting them to null doesn't
+    // really does anything. Duplicating the workspace panel focus works.
+    "context": "(VimControl || (!Editor && !Terminal))",
+    "use_key_equivalents": true,
+    "bindings": {
+      "ctrl-w i": "terminal_panel::ToggleFocus",
+      "ctrl-w p": "agent::ToggleFocus",
+      "ctrl-w o": "project_panel::ToggleFocus"
+    }
+  },
+  {
     "context": "VimControl && !menu",
     "bindings": {
       "g s": "outline::Toggle",
