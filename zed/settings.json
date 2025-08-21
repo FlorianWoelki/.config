@@ -8,6 +8,7 @@
 // from the command palette or from `Zed` application menu.
 {
   "agent": {
+    "default_profile": "write",
     "default_model": {
       "provider": "zed.dev",
       "model": "claude-sonnet-4"
@@ -23,6 +24,7 @@
     "case_sensitive": true
   },
   "project_panel": {
+    "starts_open": true,
     "sticky_scroll": true,
     "dock": "right"
   },
@@ -71,6 +73,9 @@
     "inline_blame": {
       "enabled": true
     }
+  },
+  "status_bar": {
+    "active_language_button": false
   },
   "vim": {
     "use_system_clipboard": "never"
