@@ -11,7 +11,7 @@
     "default_profile": "write",
     "default_model": {
       "provider": "zed.dev",
-      "model": "claude-sonnet-4"
+      "model": "claude-sonnet-4-thinking"
     }
   },
   "lsp_document_colors": "inlay",
@@ -75,7 +75,8 @@
     }
   },
   "status_bar": {
-    "active_language_button": false
+    "active_language_button": false,
+    "cursor_position_button": false
   },
   "vim": {
     "use_system_clipboard": "never"
