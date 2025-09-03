@@ -65,6 +65,11 @@
     "enabled": true,
     "coloring": "indent_aware"
   },
+  "tabs": {
+    "show_diagnostics": "all",
+    "file_icons": true,
+    "git_status": true
+  },
   "preview_tabs": {
     "enabled": false
   },
