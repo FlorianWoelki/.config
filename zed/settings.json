@@ -10,8 +10,8 @@
   "agent": {
     "default_profile": "write",
     "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-sonnet-4-thinking"
+      "provider": "copilot_chat",
+      "model": "o3-mini"
     }
   },
   "lsp_document_colors": "inlay",
