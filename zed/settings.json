@@ -10,8 +10,8 @@
   "agent": {
     "default_profile": "write",
     "default_model": {
-      "provider": "copilot_chat",
-      "model": "o3-mini"
+      "provider": "openrouter",
+      "model": "x-ai/grok-code-fast-1"
     }
   },
   "lsp_document_colors": "inlay",
