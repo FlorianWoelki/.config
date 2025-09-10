@@ -8,7 +8,6 @@
 // from the command palette or from `Zed` application menu.
 {
   "agent": {
-    "default_profile": "write",
     "default_model": {
       "provider": "openrouter",
       "model": "x-ai/grok-code-fast-1"
