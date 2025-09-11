@@ -13,6 +13,8 @@
       "model": "x-ai/grok-code-fast-1"
     }
   },
+  "use_system_window_tabs": true,
+  "rounded_selection": true,
   "lsp_document_colors": "inlay",
   "inline_code_actions": false,
   "minimap": {
