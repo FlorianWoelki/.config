@@ -92,12 +92,12 @@
       "ctrl-w j": "workspace::ToggleBottomDock",
 
       // Error navigation
-      "] e": "editor::GoToDiagnostic",
-      "[ e": "editor::GoToPreviousDiagnostic",
+      "[ e": "editor::GoToDiagnostic",
+      "] e": "editor::GoToPreviousDiagnostic",
 
       // Git
-      "] h": "editor::GoToHunk",
-      "[ h": "editor::GoToPreviousHunk"
+      "[ g": "editor::GoToHunk",
+      "] g": "editor::GoToPreviousHunk"
 
       // YouTube Usage
       // "k": ["workspace::SendKeystrokes", "up z z"],
