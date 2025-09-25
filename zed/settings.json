@@ -59,7 +59,7 @@
     "show": true
   },
   "scrollbar": {
-    "show": "never"
+    "show": "auto"
   },
   // Rainbow indentation
   "indent_guides": {
