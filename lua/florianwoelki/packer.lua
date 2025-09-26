@@ -33,7 +33,7 @@ return require("packer").startup(function(use)
 
 	use({
 		"VonHeikemen/lsp-zero.nvim",
-		branch = "v1.x",
+		branch = "v3.x",
 		requires = {
 			-- LSP Support
 			{ "neovim/nvim-lspconfig" },
@@ -59,7 +59,6 @@ return require("packer").startup(function(use)
 	use("lewis6991/gitsigns.nvim")
 	use("RRethy/vim-illuminate")
 	use("windwp/nvim-ts-autotag")
-	use("WhoIsSethDaniel/mason-tool-installer.nvim")
 	use({
 		"stevearc/conform.nvim",
 		config = function()

@@ -1,20 +1,12 @@
-require("mason-tool-installer").setup({
-	ensure_installed = {
-		"prettier",
-		"black",
-		"typescript-language-server",
-		"rust-analyzer",
-		"eslint-lsp",
-		"tailwindcss-language-server",
-		"gopls",
-		"goimports",
-	},
-	run_on_start = true,
-})
-
 require("mason-lspconfig").setup({
 	automatic_enable = true,
 })
+
+vim.lsp.enable("lua_ls")
+vim.lsp.enable("rust_analyzer")
+vim.lsp.enable("gopls")
+vim.lsp.enable("eslint")
+vim.lsp.enable("ts_ls")
 
 vim.lsp.config("tailwindcss", {
 	filetypes = {
@@ -69,5 +61,4 @@ vim.lsp.config("tailwindcss", {
 		},
 	},
 })
-
 vim.lsp.enable("tailwindcss")
