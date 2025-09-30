@@ -8,9 +8,10 @@
 // from the command palette or from `Zed` application menu.
 {
   "agent": {
+    "default_profile": "write",
     "default_model": {
       "provider": "openrouter",
-      "model": "x-ai/grok-code-fast-1"
+      "model": "qwen/qwen3-coder"
     }
   },
   "use_system_window_tabs": true,
@@ -102,6 +103,7 @@
       "buffer_font_size": 24,
       "preferred_line_length": 75,
       "soft_wrap": "preferred_line_length",
+      "format_on_save": "off",
       "git": {
         "git_gutter": "hide",
         "inline_blame": {
