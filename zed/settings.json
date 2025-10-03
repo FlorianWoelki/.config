@@ -104,6 +104,9 @@
       "preferred_line_length": 75,
       "soft_wrap": "preferred_line_length",
       "format_on_save": "off",
+      "scrollbar": {
+        "show": "never"
+      },
       "git": {
         "git_gutter": "hide",
         "inline_blame": {
