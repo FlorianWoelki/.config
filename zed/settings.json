@@ -30,6 +30,11 @@
     "sticky_scroll": true,
     "dock": "right"
   },
+  "terminal": {
+    "toolbar": {
+      "breadcrumbs": false
+    }
+  },
   "toolbar": {
     "breadcrumbs": true,
     "quick_actions": false,
