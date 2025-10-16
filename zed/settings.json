@@ -21,6 +21,10 @@
   "minimap": {
     "show": "never"
   },
+  "title_bar": {
+    "show_user_picture": false,
+    "show_branch_icon": true
+  },
   "search": {
     "button": false,
     "case_sensitive": true
@@ -89,7 +93,9 @@
   },
   "status_bar": {
     "active_language_button": false,
-    "cursor_position_button": false
+    "cursor_position_button": false,
+    // NOTE: This might change in the future.
+    "experimental.show": false
   },
   "vim": {
     "use_system_clipboard": "never"
