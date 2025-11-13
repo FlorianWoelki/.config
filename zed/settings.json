@@ -27,7 +27,8 @@
   },
   "search": {
     "button": false,
-    "case_sensitive": true
+    "case_sensitive": true,
+    "center_on_match": true
   },
   "project_panel": {
     "starts_open": true,
@@ -65,7 +66,7 @@
   "ui_font_size": 16,
   "buffer_font_size": 18,
   "cursor_blink": false,
-  "relative_line_numbers": true,
+  "relative_line_numbers": "enabled",
   "tab_bar": {
     "show": true
   },
@@ -94,8 +95,6 @@
   "status_bar": {
     "active_language_button": false,
     "cursor_position_button": false,
-    // NOTE: This might change in the future.
-    "experimental.show": false
   },
   "vim": {
     "use_system_clipboard": "never"
@@ -107,6 +106,7 @@
   },
   "wrap_guides": [90],
   "show_wrap_guides": true,
+  "completion_menu_scrollbar": "auto",
   "profiles": {
     "YouTube": {
       "show_wrap_guides": false,
