@@ -35,6 +35,12 @@
     "sticky_scroll": true,
     "dock": "right"
   },
+  "sticky_scroll": {
+    "enabled": true
+  },
+  "scrollbar": {
+    "show": "auto"
+  },
   "terminal": {
     "keep_selection_on_copy": false,
     "toolbar": {
@@ -69,9 +75,6 @@
   "relative_line_numbers": "enabled",
   "tab_bar": {
     "show": true
-  },
-  "scrollbar": {
-    "show": "auto"
   },
   // Rainbow indentation
   "indent_guides": {
@@ -116,6 +119,9 @@
       "preferred_line_length": 75,
       "soft_wrap": "preferred_line_length",
       "format_on_save": "off",
+      "sticky_scroll": {
+        "enabled": false
+      },
       "scrollbar": {
         "show": "never"
       },
