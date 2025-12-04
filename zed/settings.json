@@ -11,7 +11,7 @@
     "default_profile": "write",
     "default_model": {
       "provider": "openrouter",
-      "model": "qwen/qwen3-coder"
+      "model": "minimax/minimax-m2"
     }
   },
   "use_system_window_tabs": true,
@@ -57,6 +57,7 @@
   "features": {
     "edit_prediction_provider": "zed"
   },
+  "colorize_brackets": true,
   "hide_mouse": "on_typing_and_movement",
   // Will be triggered manually with `ctrl-x ctrl-c`.
   "show_edit_predictions": false,
