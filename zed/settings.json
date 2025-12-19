@@ -11,63 +11,63 @@
     "default_profile": "write",
     "default_model": {
       "provider": "openrouter",
-      "model": "minimax/minimax-m2"
-    }
+      "model": "minimax/minimax-m2",
+    },
   },
+  "colorize_brackets": true,
   "use_system_window_tabs": true,
   "rounded_selection": true,
   "lsp_document_colors": "inlay",
   "inline_code_actions": false,
   "minimap": {
-    "show": "never"
+    "show": "never",
   },
   "title_bar": {
     "show_user_picture": false,
-    "show_branch_icon": true
+    "show_branch_icon": true,
   },
   "search": {
     "button": false,
     "case_sensitive": true,
-    "center_on_match": true
+    "center_on_match": true,
   },
   "project_panel": {
     "starts_open": true,
     "sticky_scroll": true,
-    "dock": "right"
+    "dock": "right",
   },
   "sticky_scroll": {
-    "enabled": true
+    "enabled": true,
   },
   "scrollbar": {
-    "show": "auto"
+    "show": "auto",
   },
   "terminal": {
     "keep_selection_on_copy": false,
     "toolbar": {
-      "breadcrumbs": false
-    }
+      "breadcrumbs": false,
+    },
   },
   "toolbar": {
     "breadcrumbs": true,
     "quick_actions": false,
-    "selections_menu": false
+    "selections_menu": false,
   },
   "ui_font_family": "Monaspace Neon",
   "buffer_font_family": "Monaspace Neon",
   "features": {
-    "edit_prediction_provider": "zed"
+    "edit_prediction_provider": "zed",
   },
-  "colorize_brackets": true,
   "hide_mouse": "on_typing_and_movement",
   // Will be triggered manually with `ctrl-x ctrl-c`.
   "show_edit_predictions": false,
   "inlay_hints": {
-    "enabled": false
+    "enabled": false,
   },
   "theme": "Github Dark",
   "telemetry": {
     "metrics": false,
-    "diagnostics": false
+    "diagnostics": false,
   },
   "vim_mode": true,
   "ui_font_size": 16,
@@ -75,38 +75,44 @@
   "cursor_blink": false,
   "relative_line_numbers": "enabled",
   "tab_bar": {
-    "show": true
+    "show": true,
   },
   // Rainbow indentation
   "indent_guides": {
     "enabled": true,
-    "coloring": "indent_aware"
+    "coloring": "indent_aware",
   },
   "tabs": {
     "show_diagnostics": "all",
     "file_icons": true,
-    "git_status": true
+    "git_status": true,
   },
   "preview_tabs": {
-    "enabled": false
+    "enable_preview_from_project_panel": true,
+    "enable_preview_from_file_finder": false,
+    "enable_preview_from_multibuffer": false,
+    "enable_preview_multibuffer_from_code_navigation": false,
+    "enable_preview_file_from_code_navigation": false,
   },
   "git": {
     "git_gutter": "tracked_files",
     "inline_blame": {
-      "enabled": true
-    }
+      "enabled": true,
+    },
   },
   "status_bar": {
     "active_language_button": false,
     "cursor_position_button": false,
+    // NOTE: This might change in the future.
+    "experimental.show": true,
   },
   "vim": {
-    "use_system_clipboard": "never"
+    "use_system_clipboard": "never",
   },
   "languages": {
     "LaTeX": {
-      "soft_wrap": "preferred_line_length"
-    }
+      "soft_wrap": "preferred_line_length",
+    },
   },
   "wrap_guides": [90],
   "show_wrap_guides": true,
@@ -121,17 +127,17 @@
       "soft_wrap": "preferred_line_length",
       "format_on_save": "off",
       "sticky_scroll": {
-        "enabled": false
+        "enabled": false,
       },
       "scrollbar": {
-        "show": "never"
+        "show": "never",
       },
       "git": {
         "git_gutter": "hide",
         "inline_blame": {
-          "enabled": false
-        }
-      }
-    }
-  }
+          "enabled": false,
+        },
+      },
+    },
+  },
 }
