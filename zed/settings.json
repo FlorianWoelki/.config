@@ -7,6 +7,10 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "session": {
+    // This might change in the future
+    "trust_all_worktrees": true,
+  },
   "restore_on_startup": "last_session",
   "agent": {
     "default_profile": "write",
