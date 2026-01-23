@@ -5,14 +5,14 @@
       "ctrl-x ctrl-o": "editor::ShowCompletions",
       "ctrl-x ctrl-a": "assistant::InlineAssist", // zed specific
       // For showing edit prediction manually.
-      "ctrl-x ctrl-c": "editor::ShowEditPrediction" // zed specific
-    }
+      "ctrl-x ctrl-c": "editor::ShowEditPrediction", // zed specific
+    },
   },
   {
     "context": "ProjectPanel && not_editing",
     "bindings": {
-      "s h": "workspace::ActivatePaneLeft"
-    }
+      "s h": "workspace::ActivatePaneLeft",
+    },
   },
   {
     "context": "Workspace",
@@ -20,8 +20,8 @@
     "bindings": {
       "ctrl-w i": "terminal_panel::ToggleFocus",
       "ctrl-w p": "agent::ToggleFocus",
-      "ctrl-w o": "project_panel::ToggleFocus"
-    }
+      "ctrl-w o": "project_panel::ToggleFocus",
+    },
   },
   {
     // I had to add this here because it seems like setting them to null doesn't
@@ -31,8 +31,8 @@
     "bindings": {
       "ctrl-w i": "terminal_panel::ToggleFocus",
       "ctrl-w p": "agent::ToggleFocus",
-      "ctrl-w o": "project_panel::ToggleFocus"
-    }
+      "ctrl-w o": "project_panel::ToggleFocus",
+    },
   },
   {
     "context": "VimControl && !menu",
@@ -40,8 +40,8 @@
       "g s": "outline::Toggle",
       "g i": "editor::ToggleCodeActions",
       "g d": "editor::OpenExcerpts",
-      "g c": ["editor::ToggleComments", { "advance_downwards": false }]
-    }
+      "g c": ["editor::ToggleComments", { "advance_downwards": false }],
+    },
   },
   {
     "context": "Editor && VimControl && !VimWaiting && !menu",
@@ -51,8 +51,8 @@
       "g a": "editor::SelectAllMatches",
       "g shift-a": "editor::FindAllReferences",
       "g f": "project_symbols::Toggle",
-      "space p e": "diagnostics::Deploy" // Zed specific
-    }
+      "space p e": "diagnostics::Deploy", // Zed specific
+    },
   },
   {
     "context": "Editor && (vim_mode == normal || vim_mode == visual) && !VimWaiting && !menu",
@@ -64,8 +64,8 @@
       "space m P": "markdown::OpenPreviewToTheSide",
       // Git
       "space g h d": "editor::ToggleSelectedDiffHunks",
-      "space g h r": "git::Restore"
-    }
+      "space g h r": "git::Restore",
+    },
   },
   {
     "context": "Editor && vim_mode == normal && !VimWaiting && !menu",
@@ -90,6 +90,7 @@
       "ctrl-w l": "workspace::ToggleRightDock",
       "ctrl-w h": "workspace::ToggleLeftDock",
       "ctrl-w j": "workspace::ToggleBottomDock",
+      "space p t": "pane::TogglePinTab",
 
       // Error navigation
       "[ e": "editor::GoToDiagnostic",
@@ -97,20 +98,20 @@
 
       // Git
       "[ g": "editor::GoToHunk",
-      "] g": "editor::GoToPreviousHunk"
+      "] g": "editor::GoToPreviousHunk",
 
       // YouTube Usage
       // "k": ["workspace::SendKeystrokes", "up z z"],
       // "j": ["workspace::SendKeystrokes", "down z z"]
-    }
+    },
   },
   {
     "context": "Terminal",
     "use_key_equivalents": true,
     "bindings": {
       // Key-bindings for being in terminal
-      "ctrl-w k": "terminal_panel::ToggleFocus"
-    }
+      "ctrl-w k": "terminal_panel::ToggleFocus",
+    },
   },
   {
     "context": "EmptyPane || SharedScreen",
@@ -118,23 +119,23 @@
       // Key-bindings for empty pane
       "space p f": "file_finder::Toggle",
       "space f p": "projects::OpenRecent",
-      "ctrl-w l": "workspace::ToggleRightDock"
-    }
+      "ctrl-w l": "workspace::ToggleRightDock",
+    },
   },
   {
     "context": "Editor && vim_mode == visual && !VimWaiting && !menu",
     "bindings": {
       // visual, visual line & visual block modes
-      "g c": "editor::ToggleComments"
-    }
+      "g c": "editor::ToggleComments",
+    },
   },
   {
     "context": "Editor && vim_mode == insert",
     "bindings": {
-      "j k": "vim::NormalBefore"
+      "j k": "vim::NormalBefore",
 
       // YouTube Usage
       // "j k": ["workspace::SendKeystrokes", "escape z z"]
-    }
-  }
+    },
+  },
 ]
