@@ -80,6 +80,7 @@
   "cursor_blink": false,
   "relative_line_numbers": "enabled",
   "tab_bar": {
+    "show_pinned_tabs_in_separate_row": true,
     "show": true,
   },
   // Rainbow indentation
