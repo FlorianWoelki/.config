@@ -39,7 +39,8 @@
     "bindings": {
       "g s": "outline::Toggle",
       "g i": "editor::ToggleCodeActions",
-      "g d": "editor::OpenExcerpts",
+      "g d": "editor::GoToDefinition",
+      "g b": "pane::GoToOlderTag",
       "g c": ["editor::ToggleComments", { "advance_downwards": false }],
     },
   },
@@ -102,7 +103,7 @@
 
       // YouTube Usage
       // "k": ["workspace::SendKeystrokes", "up z z"],
-      // "j": ["workspace::SendKeystrokes", "down z z"]
+      // "j": ["workspace::SendKeystrokes", "down z z"],
     },
   },
   {
@@ -135,7 +136,7 @@
       "j k": "vim::NormalBefore",
 
       // YouTube Usage
-      // "j k": ["workspace::SendKeystrokes", "escape z z"]
+      // "j k": ["workspace::SendKeystrokes", "escape z z"],
     },
   },
 ]
