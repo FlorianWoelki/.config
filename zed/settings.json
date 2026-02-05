@@ -19,6 +19,9 @@
       "model": "minimax/minimax-m2",
     },
   },
+  "edit_predictions": {
+    "provider": "zed",
+  },
   "colorize_brackets": true,
   "use_system_window_tabs": true,
   "rounded_selection": true,
@@ -60,9 +63,6 @@
   },
   "ui_font_family": "Monaspace Neon",
   "buffer_font_family": "Monaspace Neon",
-  "features": {
-    "edit_prediction_provider": "zed",
-  },
   "hide_mouse": "on_typing_and_movement",
   // Will be triggered manually with `ctrl-x ctrl-c`.
   "show_edit_predictions": false,
