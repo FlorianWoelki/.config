@@ -12,6 +12,8 @@
     "trust_all_worktrees": true,
   },
   "restore_on_startup": "last_session",
+  // Disabling all AI functionalities for now
+  "disable_ai": true,
   "agent": {
     "default_profile": "write",
     "default_model": {
