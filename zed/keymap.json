@@ -86,12 +86,12 @@
       "space c": "pane::CloseActiveItem",
       "space p f": "file_finder::Toggle",
       "space p s": "pane::DeploySearch",
+      "space p t": "tab_switcher::Toggle",
       "space f": "editor::Format",
-      "space m": "tab_switcher::Toggle",
       "ctrl-w l": "workspace::ToggleRightDock",
       "ctrl-w h": "workspace::ToggleLeftDock",
       "ctrl-w j": "workspace::ToggleBottomDock",
-      "space p t": "pane::TogglePinTab",
+      "ctrl-w t": "pane::TogglePinTab",
 
       // Error navigation
       "[ e": "editor::GoToDiagnostic",
