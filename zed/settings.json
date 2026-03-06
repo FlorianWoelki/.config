@@ -42,6 +42,7 @@
     "center_on_match": true,
   },
   "project_panel": {
+    "diagnostic_badges": true,
     "starts_open": true,
     "sticky_scroll": true,
     "dock": "right",
