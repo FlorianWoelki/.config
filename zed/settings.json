@@ -46,6 +46,9 @@
     "starts_open": true,
     "sticky_scroll": true,
     "dock": "right",
+    "scrollbar": {
+      "horizontal_scroll": false,
+    },
   },
   "sticky_scroll": {
     "enabled": true,
@@ -128,13 +131,13 @@
   "completion_menu_scrollbar": "auto",
   "profiles": {
     "YouTube": {
+      "formatter": "none",
       "show_wrap_guides": false,
       "show_edit_predictions": false,
       "ui_font_size": 24,
       "buffer_font_size": 24,
       "preferred_line_length": 75,
       "soft_wrap": "preferred_line_length",
-      "format_on_save": "off",
       "sticky_scroll": {
         "enabled": false,
       },
