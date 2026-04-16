@@ -131,23 +131,25 @@
   "completion_menu_scrollbar": "auto",
   "profiles": {
     "YouTube": {
-      "formatter": "none",
-      "show_wrap_guides": false,
-      "show_edit_predictions": false,
-      "ui_font_size": 24,
-      "buffer_font_size": 24,
-      "preferred_line_length": 75,
-      "soft_wrap": "preferred_line_length",
-      "sticky_scroll": {
-        "enabled": false,
-      },
-      "scrollbar": {
-        "show": "never",
-      },
-      "git": {
-        "git_gutter": "hide",
-        "inline_blame": {
+      "settings": {
+        "formatter": "none",
+        "show_wrap_guides": false,
+        "show_edit_predictions": false,
+        "ui_font_size": 24,
+        "buffer_font_size": 24,
+        "preferred_line_length": 75,
+        "soft_wrap": "preferred_line_length",
+        "sticky_scroll": {
           "enabled": false,
+        },
+        "scrollbar": {
+          "show": "never",
+        },
+        "git": {
+          "git_gutter": "hide",
+          "inline_blame": {
+            "enabled": false,
+          },
         },
       },
     },
