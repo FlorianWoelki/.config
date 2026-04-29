@@ -21,6 +21,10 @@
       "ctrl-w i": "terminal_panel::ToggleFocus",
       "ctrl-w p": "agent::ToggleFocus",
       "ctrl-w o": "project_panel::ToggleFocus",
+      "space t c": [
+        "action::Sequence",
+        ["workspace::NewCenterTerminal", "pane::SplitRight"],
+      ],
     },
   },
   {
