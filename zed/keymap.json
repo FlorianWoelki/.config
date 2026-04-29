@@ -21,7 +21,10 @@
       "ctrl-w i": "terminal_panel::ToggleFocus",
       "ctrl-w p": "agent::ToggleFocus",
       "ctrl-w o": "project_panel::ToggleFocus",
-      "space t c": [
+      // TODO: Maybe check for another keybinding and other ways to do this.
+      // FIXME: Right now the active pane is also split to the right due to async nature
+      // (related to https://github.com/zed-industries/zed/issues/42555).
+      "ctrl-w 1": [
         "action::Sequence",
         ["workspace::NewCenterTerminal", "pane::SplitRight"],
       ],
