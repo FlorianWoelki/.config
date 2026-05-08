@@ -7,6 +7,15 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "outline_panel": {
+    "dock": "left",
+  },
+  "collaboration_panel": {
+    "dock": "left",
+  },
+  "git_panel": {
+    "dock": "left",
+  },
   "session": {
     // This might change in the future
     "trust_all_worktrees": true,
@@ -15,6 +24,7 @@
   // Disabling all AI functionalities for now
   "disable_ai": true,
   "agent": {
+    "dock": "right",
     "default_profile": "write",
     "default_model": {
       "provider": "openrouter",
@@ -34,7 +44,6 @@
   },
   "title_bar": {
     "show_user_picture": false,
-    "show_branch_icon": true,
   },
   "search": {
     "button": false,
@@ -42,6 +51,8 @@
     "center_on_match": true,
   },
   "project_panel": {
+    // not sure yet if i'll turn this back on
+    "auto_reveal_entries": false,
     "diagnostic_badges": true,
     "starts_open": true,
     "sticky_scroll": true,
@@ -69,7 +80,7 @@
   },
   "ui_font_family": "Monaspace Neon",
   "buffer_font_family": "Monaspace Neon",
-  "hide_mouse": "on_typing_and_movement",
+  "hide_mouse": "on_typing_and_action",
   // Will be triggered manually with `ctrl-x ctrl-c`.
   "show_edit_predictions": false,
   "inlay_hints": {
@@ -123,7 +134,7 @@
   },
   "languages": {
     "LaTeX": {
-      "soft_wrap": "preferred_line_length",
+      "soft_wrap": "prefer_line",
     },
   },
   "wrap_guides": [90],
@@ -138,7 +149,7 @@
         "ui_font_size": 24,
         "buffer_font_size": 24,
         "preferred_line_length": 75,
-        "soft_wrap": "preferred_line_length",
+        "soft_wrap": "prefer_line",
         "sticky_scroll": {
           "enabled": false,
         },
