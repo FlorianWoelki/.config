@@ -7,6 +7,8 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "go_to_definition_scroll_strategy": "center",
+  "diff_view_style": "split",
   "outline_panel": {
     "dock": "left",
   },
