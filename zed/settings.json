@@ -80,8 +80,11 @@
     "quick_actions": false,
     "selections_menu": false,
   },
-  "ui_font_family": "Monaspace Neon",
-  "buffer_font_family": "Monaspace Neon",
+  // Experimental:
+  // "ui_font_family": "Monaspace Neon",
+  "ui_font_family": "Terminess Nerd Font Mono",
+  // "buffer_font_family": "Monaspace Neon",
+  "buffer_font_family": "Terminess Nerd Font Mono",
   "hide_mouse": "on_typing_and_action",
   // Will be triggered manually with `ctrl-x ctrl-c`.
   "show_edit_predictions": false,
