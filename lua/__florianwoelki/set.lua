@@ -35,3 +35,6 @@ vim.opt.splitright = true
 vim.opt.splitbelow = true
 
 vim.opt.cmdheight = 2
+
+-- Remove menu bar, toolbar, and both scroll bars
+vim.opt.guioptions:remove({ "m", "T", "r", "L" })
