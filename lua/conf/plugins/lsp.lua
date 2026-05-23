@@ -81,10 +81,13 @@ return {
         -- find more here: https://www.nerdfonts.com/cheat-sheet
 
         cmp.setup({
+            completion = {
+              completeopt = 'menu,menuone,noinsert',
+            },
+            preselect = cmp.PreselectMode.Item,
             sources = {
                 { name = "nvim_lsp" },
             },
-
             mapping = {
                 ["<C-k>"] = cmp.mapping.select_prev_item(),
                 ["<C-j>"] = cmp.mapping.select_next_item(),
