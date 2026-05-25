@@ -34,9 +34,9 @@ return {
             actions.close(prompt_bufnr)
             vim.api.nvim_set_current_dir(path)
 
-            vim.schedule(function()
-              vim.cmd("Neotree show")
-            end)
+            --vim.schedule(function()
+              --vim.cmd("Neotree show")
+            --end)
           end)
 
           return true
