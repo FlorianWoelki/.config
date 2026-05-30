@@ -46,7 +46,7 @@ local ft_group = vim.api.nvim_create_augroup("FileTypeSpecific", { clear = true 
 
 -- Set shiftwidth and tabstop to 2 for HTML, CSS, JavaScript, and Lua files
 vim.api.nvim_create_autocmd("FileType", {
-  pattern = { "html", "css", "javascript", "lua" },
+  pattern = { "html", "css", "javascript", "javascriptreact", "typescript", "typescriptreact", "lua" },
   callback = function()
     vim.opt_local.shiftwidth = 2
     vim.opt_local.tabstop = 2
