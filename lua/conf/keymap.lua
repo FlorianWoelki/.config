@@ -5,7 +5,7 @@ local map = vim.keymap.set
 local opts = { noremap = true, silent = true }
 local term_opts = { silent = true }
 
--- Disable Space in normal and visual modes to prevent accidental movement 
+-- Disable Space in normal and visual modes to prevent accidental movement
 map({ "n", "v" }, "<Space>", "<Nop>", opts)
 
 -- Better escape

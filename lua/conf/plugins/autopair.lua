@@ -1,5 +1,5 @@
 return {
-    "altermo/ultimate-autopair.nvim",
-    event = { "InsertEnter" },
-    config = true,
+  "altermo/ultimate-autopair.nvim",
+  event = { "InsertEnter" },
+  config = true,
 }
