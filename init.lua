@@ -1,2 +1,2 @@
-require("florianwoelki")
+require("conf")
 
