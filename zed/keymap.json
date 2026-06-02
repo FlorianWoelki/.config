@@ -19,15 +19,18 @@
     "use_key_equivalents": true,
     "bindings": {
       "ctrl-w i": "terminal_panel::ToggleFocus",
-      "ctrl-w p": "agent::ToggleFocus",
       "ctrl-w o": "project_panel::ToggleFocus",
       // TODO: Maybe check for another keybinding and other ways to do this.
       // FIXME: Right now the active pane is also split to the right due to async nature
       // (related to https://github.com/zed-industries/zed/issues/42555).
-      "ctrl-w 1": [
-        "action::Sequence",
-        ["workspace::NewCenterTerminal", "pane::SplitRight"],
-      ],
+      // "space t v": [
+      //   "action::Sequence",
+      //   ["workspace::NewCenterTerminal", "pane::SplitRight"],
+      // ],
+      // "space t h": [
+      //   "action::Sequence",
+      //   ["workspace::NewCenterTerminal", "pane::SplitRight"],
+      // ],
     },
   },
   {
@@ -81,20 +84,24 @@
       // Key-bindings to work only in normal mode
       "space e": "editor::Hover",
 
-      // Buffers
+      // Window Creation
       "s v": "pane::SplitRight",
       "s s": "pane::SplitDown",
+      // Window Navigation
       "s l": "workspace::ActivatePaneRight",
       "s h": "workspace::ActivatePaneLeft",
       "s k": "workspace::ActivatePaneUp",
       "s j": "workspace::ActivatePaneDown",
-      "space h": "pane::ActivatePreviousItem",
-      "space l": "pane::ActivateNextItem",
-      "space c": "pane::CloseActiveItem",
+      // Buffer Navigation
+      "shift-h": "pane::ActivatePreviousItem",
+      "shift-l": "pane::ActivateNextItem",
+
+      // Finders & Formats
       "space p f": "file_finder::Toggle",
-      "space p s": "pane::DeploySearch",
+      "space p r": "pane::DeploySearch",
       "space p t": "tab_switcher::Toggle",
       "space f": "editor::Format",
+
       "ctrl-w l": "workspace::ToggleRightDock",
       "ctrl-w h": "workspace::ToggleLeftDock",
       "ctrl-w j": "workspace::ToggleBottomDock",
