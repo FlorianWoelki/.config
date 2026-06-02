@@ -78,14 +78,14 @@
   "inlay_hints": {
     "enabled": false,
   },
-  "theme": "GitHub Dark",
+  "theme": "Tokyo Night",
   "telemetry": {
     "metrics": false,
     "diagnostics": false,
   },
   "vim_mode": true,
   "ui_font_size": 16,
-  "buffer_font_size": 18,
+  "buffer_font_size": 16,
   "cursor_blink": false,
   "relative_line_numbers": "enabled",
   "tab_bar": {
