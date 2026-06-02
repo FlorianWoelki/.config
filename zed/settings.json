@@ -8,6 +8,7 @@
 // from the command palette or from `Zed` application menu.
 {
   "go_to_definition_scroll_strategy": "center",
+  "completion_menu_item_kind": "symbol",
   "diff_view_style": "split",
   "outline_panel": {
     "dock": "left",
@@ -23,19 +24,7 @@
     "trust_all_worktrees": true,
   },
   "restore_on_startup": "last_session",
-  // Disabling all AI functionalities for now
   "disable_ai": true,
-  "agent": {
-    "dock": "right",
-    "default_profile": "write",
-    "default_model": {
-      "provider": "openrouter",
-      "model": "minimax/minimax-m2",
-    },
-  },
-  "edit_predictions": {
-    "provider": "zed",
-  },
   "colorize_brackets": true,
   "use_system_window_tabs": true,
   "rounded_selection": true,
@@ -80,14 +69,12 @@
     "quick_actions": false,
     "selections_menu": false,
   },
-  // Experimental:
   // "ui_font_family": "Monaspace Neon",
   "ui_font_family": "Terminess Nerd Font Mono",
   // "buffer_font_family": "Monaspace Neon",
   "buffer_font_family": "Terminess Nerd Font Mono",
-  "hide_mouse": "on_typing_and_action",
-  // Will be triggered manually with `ctrl-x ctrl-c`.
   "show_edit_predictions": false,
+  "hide_mouse": "on_typing_and_action",
   "inlay_hints": {
     "enabled": false,
   },
@@ -148,16 +135,11 @@
   "profiles": {
     "YouTube": {
       "settings": {
-        "formatter": "none",
         "show_wrap_guides": false,
-        "show_edit_predictions": false,
         "ui_font_size": 24,
         "buffer_font_size": 24,
         "preferred_line_length": 75,
         "soft_wrap": "prefer_line",
-        "sticky_scroll": {
-          "enabled": false,
-        },
         "scrollbar": {
           "show": "never",
         },
