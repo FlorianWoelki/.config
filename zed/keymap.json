@@ -20,17 +20,6 @@
     "bindings": {
       "ctrl-w i": "terminal_panel::ToggleFocus",
       "ctrl-w o": "project_panel::ToggleFocus",
-      // TODO: Maybe check for another keybinding and other ways to do this.
-      // FIXME: Right now the active pane is also split to the right due to async nature
-      // (related to https://github.com/zed-industries/zed/issues/42555).
-      // "space t v": [
-      //   "action::Sequence",
-      //   ["workspace::NewCenterTerminal", "pane::SplitRight"],
-      // ],
-      // "space t h": [
-      //   "action::Sequence",
-      //   ["workspace::NewCenterTerminal", "pane::SplitRight"],
-      // ],
     },
   },
   {
@@ -81,6 +70,18 @@
   {
     "context": "Editor && vim_mode == normal && !VimWaiting && !menu",
     "bindings": {
+      // TODO: Maybe check for another keybinding and other ways to do this.
+      // FIXME: Right now the active pane is also split to the right due to async nature
+      // (related to https://github.com/zed-industries/zed/issues/42555).
+      // "space t v": [
+      //   "action::Sequence",
+      //   ["workspace::NewCenterTerminal", "pane::SplitRight"],
+      // ],
+      "space t h": [
+        "action::Sequence",
+        ["workspace::NewCenterTerminal", "pane::SplitRight"],
+      ],
+
       // Key-bindings to work only in normal mode
       "space e": "editor::Hover",
 
