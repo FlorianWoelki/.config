@@ -52,6 +52,7 @@
       "g shift-a": "editor::FindAllReferences",
       "g f": "project_symbols::Toggle",
       "space p e": "diagnostics::Deploy", // Zed specific
+      "space z": "workspace::ToggleZoom", // Zed specific
     },
   },
   {
