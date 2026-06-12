@@ -42,8 +42,7 @@
     "center_on_match": true,
   },
   "project_panel": {
-    // not sure yet if i'll turn this back on
-    "auto_reveal_entries": false,
+    "auto_reveal_entries": true,
     "diagnostic_badges": true,
     "starts_open": true,
     "sticky_scroll": true,
