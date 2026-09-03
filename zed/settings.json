@@ -78,7 +78,7 @@
   "inlay_hints": {
     "enabled": false,
   },
-  "theme": "Tokyo Night",
+  "theme": "Catppuccin Mocha",
   "telemetry": {
     "metrics": false,
     "diagnostics": false,
