@@ -130,6 +130,9 @@
     "use_system_clipboard": "never",
   },
   "languages": {
+    "C++": {
+      "tab_size": 4,
+    },
     "LaTeX": {
       "soft_wrap": "prefer_line",
     },
