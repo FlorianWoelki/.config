@@ -15,6 +15,15 @@
     },
   },
   {
+    "context": "GitPanel && ChangesList && !GitBranchSelector && !GitRepositorySelector",
+    "bindings": {
+      "s l": "workspace::ActivatePaneRight",
+      "enter": "menu::Confirm", // open diff for the selected file (same as g f)
+      "c c": "git::Commit", // fugitive-style
+      "ctrl-w g g": "git_panel::ToggleFocus",
+    },
+  },
+  {
     "context": "Workspace",
     "use_key_equivalents": true,
     "bindings": {
