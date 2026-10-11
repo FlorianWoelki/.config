@@ -69,6 +69,11 @@
       // Git
       "space g h d": "editor::ToggleSelectedDiffHunks",
       "space g h r": "git::Restore",
+      "space g g": "git_panel::ToggleFocus",
+      "space g d": "git::Diff", // full project diff view
+      "space g c": "git::Commit",
+      "space g p": "git::Push",
+      "space g P": "git::Pull",
     },
   },
   {
