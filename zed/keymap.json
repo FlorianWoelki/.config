@@ -30,6 +30,7 @@
     "context": "(VimControl || (!Editor && !Terminal))",
     "use_key_equivalents": true,
     "bindings": {
+      "ctrl-w g g": "git_panel::ToggleFocus",
       "ctrl-w i": "terminal_panel::ToggleFocus",
       "ctrl-w p": "agent::ToggleFocus",
       "ctrl-w o": "project_panel::ToggleFocus",
