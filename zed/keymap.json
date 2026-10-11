@@ -18,6 +18,8 @@
     "context": "Workspace",
     "use_key_equivalents": true,
     "bindings": {
+      // Use this rather than `ctrl-w g` to not wait out its key timeout before it acts on it.
+      "ctrl-w g g": "git_panel::ToggleFocus",
       "ctrl-w i": "terminal_panel::ToggleFocus",
       "ctrl-w o": "project_panel::ToggleFocus",
     },
