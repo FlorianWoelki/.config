@@ -1,0 +1,19 @@
+[
+  {
+    "label": "git add current file",
+    "command": "git add -- \"$ZED_FILE\"",
+    "reveal": "never",
+    "hide": "on_success",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": true
+  },
+  {
+    "label": "git reset current file",
+    "command": "git reset -- \"$ZED_FILE\"",
+    "reveal": "never",
+    "hide": "on_success",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": true
+  }
+]
+
