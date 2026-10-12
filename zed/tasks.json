@@ -14,6 +14,15 @@
     "hide": "on_success",
     "use_new_terminal": false,
     "allow_concurrent_runs": true
+  },
+  {
+    "label": "git add all (project)",
+    "command": "git add -A .",
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "never",
+    "hide": "on_success",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": true
   }
 ]
 

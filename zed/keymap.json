@@ -78,6 +78,7 @@
       // Git
       "space g a": ["task::Spawn", { "task_name": "git add current file" }],
       "space g u": ["task::Spawn", { "task_name": "git reset current file" }],
+      "space g A": ["task::Spawn", { "task_name": "git add all (project)" }],
       "space g h d": "editor::ToggleSelectedDiffHunks",
       "space g h r": "git::Restore",
       "space g g": "git_panel::ToggleFocus",
